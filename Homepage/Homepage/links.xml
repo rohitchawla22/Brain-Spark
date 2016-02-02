@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="links.xsl"?>
+<!DOCTYPE pages [
+
+<!ELEMENT pages (link+)>
+<!ELEMENT link (title,url)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+
+]> 
+
+
+<pages>
+<link>
+<title>Quiz</title>
+<url>quiz/quiz.php</url>
+</link>
+
+<link>
+<title>Contact Us</title>
+<url>contactus1.php</url>
+</link>
+
+<link>
+<title>Sign Up</title>
+<url>signup/signup.php</url>
+</link>
+
+<link>
+<title>News</title>
+<url>news.php</url>
+</link>
+
+<link>
+<title>Blog</title>
+<url>blog.php</url>
+</link>
+</pages>

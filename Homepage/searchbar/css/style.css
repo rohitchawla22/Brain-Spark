@@ -1,0 +1,43 @@
+/* =The style for the lab
+-------------------------------------------------------------- */
+
+ul.container{list-style:none;}
+
+.search-form {
+    position:relative;
+    float:left;
+}
+
+input[type="text"] {
+    width:48px;
+    height:48px;
+    padding:0;
+    padding-left:40px; /* account for 4px border to get perfect circle */
+    border:solid 5px rgb(200,200,200);
+    
+    font-weight:300;
+    font-size:18px;
+    color:rgb(150,150,150);
+    
+
+    -webkit-transition:width 0.5s ease-in-out;
+       -moz-transition:width 0.5s ease-in-out;
+            transition:width 0.5s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="text"]:active {
+    width:380px;
+    }
+
+label {
+    display:block;
+    width:48px;
+    height:48px;
+    font-size:0;
+    position:absolute;
+    padding:1px;
+    top:0;
+    left:0;
+    cursor:pointer;
+}
